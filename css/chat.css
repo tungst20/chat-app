@@ -1,0 +1,55 @@
+.header {
+height: 64px;
+background: blue;
+line-height: 64px;
+color:#ffffff;
+font-size: 28px;
+text-align: center;
+}
+
+.conversion-header {
+    height: 64px;
+    line-height: 64px;
+    border-bottom: 1px solid #dbdbdb;
+    text-align: center;
+    font-size: 24px;
+
+}
+.chat-container {
+    height: 100vh;
+}
+
+.chat-container .main {
+    height: calc(100vh - 64px);
+}
+
+.chat-container .main .conversation-detail {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.conversation-detail .list-messages {
+    flex-grow:1;
+}
+
+#send-message-form  .input-wrapper input {
+    border:none;
+    border-top: 1px solid #dbdbdb;
+    height: 64px;
+
+}
+
+#send-message-form {
+    position: relative;
+}
+
+#send-message-form button {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    border: none;
+    background: none;
+    color: blue;
+    font-size: 24px;
+}
